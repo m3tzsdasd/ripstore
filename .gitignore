@@ -1,13 +1,60 @@
-*.tar
-*.tar.*
-*.jar
-*.exe
-*.msi
-*.zip
-*.tgz
-*.log
-*.log.*
-*.sig
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقعي البسيط</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
 
-pkg/
-src/
+        header {
+            background-color: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #35424a;
+            color: #ffffff;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>مرحباً بكم في موقعي</h1>
+</header>
+
+<main>
+    <h2>هذا عنوان فرعي</h2>
+    <p>هذا نص توضيحي عن الموقع. يمكنك إضافة المزيد من المعلومات هنا.</p>
+    <img src="https://via.placeholder.com/600x300" alt="صورة توضيحية">
+</main>
+
+<footer>
+    <p>حقوق الطبع والنشر &copy; 2024</p>
+</footer>
+
+</body>
+</html>
